@@ -1,8 +1,7 @@
 
 body{
     margin: 0;
-    /* background-color: lightcyan; */
-    background-color: blue;
+    background-color: lightcyan;
     color: darkgreen;
     min-height: 100vh;
     display: flex;
