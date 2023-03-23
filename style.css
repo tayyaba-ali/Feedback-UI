@@ -3,7 +3,6 @@ body{
     margin: 0;
     background-color: lightcyan;
     /* color: darkgreen; */
-    color: darkmagenta;
     min-height: 100vh;
     display: flex;
     justify-content: center;
