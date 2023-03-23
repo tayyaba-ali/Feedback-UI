@@ -12,7 +12,7 @@ ratingEls.forEach(ratingEle => {
     // console.log(ratingEle)
     ratingEle.addEventListener("click", (event) => {
         // console.log(event.target.innerText)
-        console.log(event.target.innerText || event.target.parentNode.innerText);
+        // console.log(event.target.innerText || event.target.parentNode.innerText);
         removeActive()
         selectedRating = event.target.innerText || event.target.parentNode.innerText;
         event.target.classList.add("active")
